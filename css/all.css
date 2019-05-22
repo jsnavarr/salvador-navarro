@@ -447,6 +447,21 @@ transition: all 0.5s ease-in-out;
 	vertical-align: top;
 	font-size: 0;
 }
+.item-list li form input {
+	font-size: 20px;
+	background: blue;
+	color: azure;
+	border:solid 2px azure;
+	border-radius: 5%;
+	padding: 5px 20px;
+	margin: 0 auto 20px auto;
+}
+.item-list li form input:hover {
+	background: yellow;
+	color: blue;
+	border:solid 2px blue;
+}
+
 .item {
 	text-align: center;
 	width: 270px; /* it was 270px */
@@ -461,7 +476,8 @@ transition: all 0.5s ease-in-out;
 	height:auto;
 	border-radius: 5%;
 }
-.item .hover {
+/* was  .item .hover {*/
+.item .image .hover {
 	display: none;
 	height: 100%;
     left: 0;
@@ -473,7 +489,8 @@ transition: all 0.5s ease-in-out;
 	border-radius: 5%;
 	behavior: url(css/PIE.htc);
 }
-.item .hover.active{display: block;}
+/* was .item .hover.active{display: block;} */
+.item .image .hover.active{display: block;}
 .item .item-content {
 	position: relative;
 	display: table-cell;
