@@ -174,7 +174,7 @@
 	}
 	.plagin_list.none{display: none;}
 	.plagin_list{display: block;}
-	.plagin_list li,.plagin_list li:first-child{display: inline-block; vertical-align: top; width: 45%; height: auto; border: 0;margin: 0 2% 2% 2%;}
+	.plagin_list li,.plagin_list li:first-child{display: inline-block; vertical-align: top; width: auto; height: auto; border: 0;margin: 0 2% 2% 2%;}
 	.plagin_list li a,.plagin_list li:first-child a{width: 121px;height: 121px;border: 1px solid #46484c;border-radius: 50%;margin: 0 auto;}
 	.plagin_list{margin: 0 0 20px;}
 	#main{margin: 0 10px;}
