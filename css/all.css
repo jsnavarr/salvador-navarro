@@ -137,7 +137,7 @@ a:hover{text-decoration:underline;}
     display:table-row;
     background: midnightblue;
 }
-.wrapper-holder.grey{background: mediumvioletred;}
+.wrapper-holder.grey{background: steelblue;}
 #header {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -205,7 +205,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: deepskyblue;
+	color: #fff;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
 }
